@@ -5,24 +5,23 @@
   <title></title>
 
 
-  <link rel="stylesheet" type="text/css" href="css1/sample.css">
+  <link rel="stylesheet" type="text/css" href="css/sample.css">
 <!-- 投稿 -->
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="assets/css/form.css">
   <link rel="stylesheet" href="assets/css/timeline.css">
   <link rel="stylesheet" href="assets/css/main.css">
-<!-- コメント -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+<!-- likeアイコン.コメント -->
+<link rel="stylesheet" type="text/css" href="css/plan.css">
+
+
+  
 </head>
 <body>
 
-<div id="page">
-        <!-- START MAIN CONTAINER -->
-        <div id="main-container">
-            <!-- START NAVIGATION -->
-            <div class="sticky-wrapper">
-                
+
 
 <div class="container">
 
@@ -30,25 +29,13 @@
   <div class="page-header">
     <form method="post" action="example.cgi">
         <h1>京都紅葉デート</h1>
-  </div>
+
 
     <p>＊訪問した月<br>10月</p>
 
     <p>＊訪問した日<br>土日・祝祭日</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
     <!-- /Page header -->
 
     <!-- Timeline -->
@@ -131,9 +118,7 @@
 
 
         <!-- Separator -->
-        <div class="separator text-muted">
-            <time>25. 3. 2015</time>
-        </div>
+        <div class="separator text-muted"></div>
         <!-- /Separator -->
     
         <!-- Panel -->
@@ -155,7 +140,6 @@
 <div class="panel-body">
                 <p>＊交通手段<br>
                 バス</p>
-</div>
 
 <p>＊所要時間</p>
 <div style="display:inline-flex">
@@ -171,10 +155,8 @@
 
 </div>
             <!-- /Body -->
-    
-            
-    
-        </article>
+
+</article>
         <!-- /Panel -->
 
 
@@ -183,24 +165,6 @@
 
 
 
-
-
-<!-- Panel -->
-        <article class="panel panel-default panel-outline">
-    
-            <!-- Icon -->
-            <div class="panel-heading icon">
-                <i class="glyphicon glyphicon-picture"></i>
-            </div>
-            <!-- /Icon -->
-    
-            <!-- Body -->
-            <div class="panel-body">
-                <img class="img-responsive img-rounded" src="//placehold.it/220x150" />
-            </div>
-            <!-- /Body -->
-    
-        </article>
 
 <!-- Panel -->
         <article class="panel panel-danger panel-outline">
@@ -223,8 +187,6 @@
         <!-- /Panel -->
     
 
-
-    
         <!-- Panel -->
         <article class="panel panel-info panel-outline">
     
@@ -242,45 +204,183 @@
     
         </article>
         <!-- /Panel -->
+
+
+
+
+<a class="btn icon-btn btn-primary" href="#"><span class="glyphicon btn-glyphicon glyphicon-thumbs-up img-circle text-primary"></span>Like</a>
     
     </div>
     <!-- /Timeline -->
 
 </div>
 </form>
-<p><input type="submit" value="送信する"></p>
 
 </div>
 
 
-
-    <div class="row">
-    <!-- Contenedor Principal -->
-    <div class="comments-container">
-        <h1>Comentarios <a href="http://creaticode.com">creaticode.com</a></h1>
-        <ul id="comments-list" class="comments-list">
-            <li>
-                <div class="comment-main-level">
-                    <!-- Avatar -->
-                    <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
-                    <!-- Contenedor del Comentario -->
-                    <div class="comment-box">
-                        <div class="comment-head">
-                            <h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Agustin Ortiz</a></h6>
-                            <span>hace 20 minutos</span>
-                            <i class="fa fa-reply"></i>
-                            <i class="fa fa-heart"></i>
-                        </div>
-                        <div class="comment-content">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
-                        </div>
-                    </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2 class="page-header">コメント</h2>
+        <section class="comment-list">
+          <!-- First Comment -->
+          <article class="row">
+            <div class="col-md-2 col-sm-2 hidden-xs">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                <figcaption class="text-center">username</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-10 col-sm-10">
+              <div class="panel panel-default arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2014</time>
+                  </header>
+                  <div class="comment-post">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
                 </div>
-                <!-- Respuestas de los comentarios -->
-                <ul class="comments-list reply-list">
-                    <li>
-                        <!-- Avatar -->
-                        <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_2_zps7de12f8b.jpg" alt=""></div>
+              </div>
+            </div>
+          </article>
+          <!-- Second Comment Reply -->
+          <article class="row">
+            <div class="col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-0 hidden-xs">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                <figcaption class="text-center">username</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-9 col-sm-9">
+              <div class="panel panel-default arrow left">
+                <div class="panel-heading right">Reply</div>
+                <div class="panel-body">
+                  <header class="text-left">
+                    <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2014</time>
+                  </header>
+                  <div class="comment-post">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- Third Comment -->
+          <article class="row">
+            <div class="col-md-10 col-sm-10">
+              <div class="panel panel-default arrow right">
+                <div class="panel-body">
+                  <header class="text-right">
+                    <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2014</time>
+                  </header>
+                  <div class="comment-post">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2 hidden-xs">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                <figcaption class="text-center">username</figcaption>
+              </figure>
+            </div>
+          </article>
+          <!-- Fourth Comment -->
+          <article class="row">
+            <div class="col-md-2 col-sm-2 hidden-xs">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                <figcaption class="text-center">username</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-12">
+              <div class="panel panel-default arrow left">
+                <div class="panel-body">
+                  <header class="text-left">
+                    <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2014</time>
+                  </header>
+                  <div class="comment-post">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- Fifth Comment -->
+          <article class="row">
+            <div class="col-md-10 col-sm-10">
+              <div class="panel panel-default arrow right">
+                <div class="panel-body">
+                  <header class="text-right">
+                    <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2014</time>
+                  </header>
+                  <div class="comment-post">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2 hidden-xs">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                <figcaption class="text-center">username</figcaption>
+              </figure>
+            </div>
+          </article>
+          <!-- Sixth Comment Reply -->
+          <article class="row">
+            <div class="col-md-9 col-sm-9 col-md-offset-1 col-md-pull-1 col-sm-offset-0">
+              <div class="panel panel-default arrow right">
+                <div class="panel-heading">Reply</div>
+                <div class="panel-body">
+                  <header class="text-right">
+                    <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                    <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> Dec 16, 2014</time>
+                  </header>
+                  <div class="comment-post">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> reply</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-md-pull-1 hidden-xs">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                <figcaption class="text-center">username</figcaption>
+              </figure>
+            </div>
+          </article>
+        </section>
+    </div>
+  </div>
+</div>
+
 
 
 </body>
